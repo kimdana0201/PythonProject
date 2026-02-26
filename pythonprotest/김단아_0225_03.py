@@ -8,6 +8,7 @@ if fir_num > sec_num:
 for dan in range(fir_num, sec_num + 1):
     print(f"**{dan}단**", end =  "   ")
 print()
+
 for i in range(1, 10):
         for dan in range(fir_num, sec_num + 1):
             print(f" {dan}*{ i }= { dan * i}", end= "  ")

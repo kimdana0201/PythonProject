@@ -10,3 +10,5 @@ for i in range(fir_num, sec_num + 1):
     print(f"\n**{i}단**")
     for fir in range(1, 10):
         print(i ,'*', fir, '=', i * fir )
+
+#바깥 루프문이 변할 때 안쪽 루프문이 정해진 범위만큼 반복 함.그래서 몇 단 출력하는 print가 안쪽문 위에 있음.
